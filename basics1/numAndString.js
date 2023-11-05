@@ -1,3 +1,4 @@
+/*
 const firstName = 'Hello'
 const lastName = "HC"
 
@@ -17,3 +18,15 @@ let emailTwo = "hc@pw.live"
 console.log(emailTwo.replace('hc', 'hitesh'));
 console.log(email.includes('hc'));
 console.log(emailTwo.toUpperCase());
+
+*/
+
+const num = new Number(5.23456)
+console.log(num.toFixed(2));
+
+const subscribers = 100000
+console.log(subscribers.toLocaleString());
+console.log(Number.MAX_VALUE);
+
+console.log(Math.floor(Math.random()*10));
+
