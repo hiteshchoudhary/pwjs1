@@ -168,3 +168,22 @@ if (googleLoginToken || githubLoginToken) {
 }else {
     console.log("Please login to view your account");
 }
+
+
+let age = 19
+const willYougetDrivinglicense = false
+
+(age >= 18) ? willYougetDrivinglicense = true : willYougetDrivinglicense = false
+
+const getDrivingLicense = age >= 18 ? "true part" : "false"
+
+
+let loading = false
+
+if (loading) {
+    return "loading ...."
+}
+
+console.log("Show the cards to user");
+
+loading ? "show loading spinner" : "show card to user"
