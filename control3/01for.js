@@ -15,15 +15,18 @@ const minValue = 0
 // remove previous demand, if score hits 5, skip printing 5 but rest value should be printed
 let username = "hitesh"
 
-for(userScore; userScore >= minValue; userScore ){
-    // if (userScore == 5) {
-    //     break;
-    // }
-
-    if (userScore == 5) {
-        continue
+for(userScore; userScore >= minValue; userScore = userScore - 1){
+    if (true) {
+        if (userScore == 5) {
+            break;
+        }
     }
+
+    // if (userScore == 5) {
+    //     continue
+    // }
     console.log(`Userscore is ${userScore}`);
 
     console.log(username);
 }
+
