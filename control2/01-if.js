@@ -171,7 +171,7 @@ if (googleLoginToken || githubLoginToken) {
 
 
 let age = 19
-const willYougetDrivinglicense = false
+let willYougetDrivinglicense = false
 
 (age >= 18) ? willYougetDrivinglicense = true : willYougetDrivinglicense = false
 
@@ -181,7 +181,7 @@ const getDrivingLicense = age >= 18 ? "true part" : "false"
 let loading = false
 
 if (loading) {
-    return "loading ...."
+     "loading ...."
 }
 
 console.log("Show the cards to user");
